@@ -18,7 +18,7 @@ name = "plugins"
 required-features = ["vendored"]
 
 [dependencies]
-krb5-src = { git = "https://github.com/MaterializeInc/rust-krb5-src.git", branch = "v0.2.4+1.18.2-patch", optional = true }
+krb5-src = { git = "https://github.com/ocadaruma/rust-krb5-src.git", branch = "v0.2.4+1.18.2-patch", optional = true }
 libc = "0.2.68"
 
 [dev-dependencies]
