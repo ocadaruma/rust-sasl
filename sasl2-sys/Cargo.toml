@@ -26,7 +26,7 @@ version-sync = "0.9"
 [build-dependencies]
 cc = "1.0.50"
 duct = "0.13.3"
-krb5-src = { version = "0.1.0", optional = true }
+krb5-src = { git = "https://github.com/ocadaruma/rust-krb5-src.git", branch = "v0.1.0+1.18.1-patch", optional = true }
 pkg-config = { version = "0.3.17", optional = true }
 
 [features]
